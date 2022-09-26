@@ -24,9 +24,6 @@ class Usuario{
         console.log(this.pets);
         console.log(this.books);
     } 
-    /*countMascotas(): 
-    addBook()
-    getBookNames()*/
 }
 const usuario1 = new Usuario('Bernardo', 'Begue Aliaga',[
                                                     {
