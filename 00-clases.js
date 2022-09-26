@@ -20,10 +20,6 @@ class Usuario{
     getBookNames(){
         console.log(this.books.map((misLibros) => misLibros.nombre));
     }
-    vermascotas() {
-        console.log(this.pets);
-        console.log(this.books);
-    } 
 }
 const usuario1 = new Usuario('Bernardo', 'Begue Aliaga',[
                                                     {
